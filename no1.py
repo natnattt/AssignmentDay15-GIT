@@ -24,7 +24,7 @@ class MarketingDataETL:
         # Store transformasi DataFrame menjadi file CSV 
         if self.data is not None:
             self.data.to_csv(output_file, index=False)
-            print("store Done")
+            print("Store Done")
 
 # Penggunaan:
 if __name__ == "__main__":
